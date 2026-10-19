@@ -1,0 +1,40 @@
+name: Plan plugin release
+description: Allocate a unique four-part plugin version, or recover an existing publication.
+inputs:
+  internal-name:
+    required: true
+    description: Dalamud internal plugin name
+  minimum-version:
+    required: true
+    description: Lowest source version; automatic releases increment the newest revision
+  source-commit:
+    required: true
+    description: Exact validated source SHA
+  tag:
+    required: false
+    description: Explicit version tag for a manually tagged release
+outputs:
+  version:
+    value: ${{ steps.plan.outputs.version }}
+    description: Assembly version to build
+  tag:
+    value: ${{ steps.plan.outputs.tag }}
+    description: Immutable release tag
+  skip:
+    value: ${{ steps.plan.outputs.skip }}
+    description: Whether this source is already published and only feed recovery is needed
+runs:
+  using: composite
+  steps:
+    - id: plan
+      shell: pwsh
+      env:
+        PLUGIN_NAME: ${{ inputs.internal-name }}
+        MINIMUM_VERSION: ${{ inputs.minimum-version }}
+        SOURCE_COMMIT: ${{ inputs.source-commit }}
+        EXPLICIT_TAG: ${{ inputs.tag }}
+      run: |
+        $arguments = @('plan', '--name', $env:PLUGIN_NAME, '--minimum', $env:MINIMUM_VERSION, '--commit', $env:SOURCE_COMMIT, '--plan', "$env:RUNNER_TEMP/plugin-release-plan.json")
+        if ($env:EXPLICIT_TAG) { $arguments += @('--tag', $env:EXPLICIT_TAG) }
+        python "${{ github.action_path }}/../../../tools/release_tools.py" @arguments
+        if ($LASTEXITCODE) { exit $LASTEXITCODE }

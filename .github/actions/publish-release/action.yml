@@ -1,0 +1,15 @@
+name: Publish validated plugin release
+description: Verify and publish draft assets, then atomically refresh the source feed.
+inputs:
+  default-branch:
+    required: true
+    description: Source repository default branch
+runs:
+  using: composite
+  steps:
+    - shell: pwsh
+      env:
+        DEFAULT_BRANCH: ${{ inputs.default-branch }}
+      run: |
+        python "${{ github.action_path }}/../../../tools/release_tools.py" publish --plan "$env:RUNNER_TEMP/plugin-release-plan.json" --branch $env:DEFAULT_BRANCH
+        if ($LASTEXITCODE) { exit $LASTEXITCODE }

@@ -1,0 +1,12 @@
+{
+  "Aetherworks": {"mode": "source-managed", "repository": "kaldigo/HotbarTools"},
+  "Accord": {"mode": "source-managed", "repository": "kaldigo/Accord"},
+  "WrathCombo": {"mode": "source-managed", "repository": "kaldigo/Accord"},
+  "ExpandedHotbars": {
+    "mode": "routine-auto-release",
+    "repository": "kaldigo/ExpandedHotbars",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
+  }
+}

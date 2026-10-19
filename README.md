@@ -47,8 +47,24 @@ plugin's release notes.
 ExpandedHotbars separately checks upstream daily. Routine condition/documentation
 updates merge after build, configuration, policy and packaging checks pass. Changes
 to fork-modified files, dependencies, publishing or unrecognised areas remain open
-for manual review, as do conflicts and failed checks. Upstream merges do not
-automatically create releases.
+for manual review, as do conflicts and failed checks. Each routine automatic merge
+queues a fresh versioned preview release after rebuilding the exact merged source
+and passing every regression check. The source feed updates only after release
+assets are public and their checksums pass. The central feed then refreshes hourly;
+Dalamud can install the newer version through its normal plugin update process.
+
+Release retries reuse the same source/version, resume incomplete drafts, and recover
+missed feed updates. Published assets are not overwritten and feeds cannot move
+backwards to an older version. GitHub delays or failed checks can delay publication;
+the last working release remains available.
+
+## Adding plugins
+
+New plugins must declare a release policy in `release-policies.json`. The shared
+version planner and validated publisher live in `.github/actions/plan-release` and
+`.github/actions/publish-release`. See [the onboarding standard](docs/ADDING-PLUGINS.md)
+for the source workflow contract, checks and manual-review boundaries. Aetherworks,
+Accord and Wrath Combo retain their existing source-managed release workflows.
 
 To validate this repository locally:
 
