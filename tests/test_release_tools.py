@@ -15,6 +15,12 @@ from sync_feed import prevent_downgrades
 
 
 class ReleaseTests(unittest.TestCase):
+    def test_draft_lookup_uses_release_listing_instead_of_public_tag_endpoint(self):
+        draft = {'tag_name': 'v1.0.1.2', 'id': 123, 'draft': True}
+        with patch.object(releases, 'gh', return_value=json.dumps([[draft]])) as request:
+            self.assertEqual(releases.find_release('kaldigo/Example', 'v1.0.1.2'), draft)
+            self.assertNotIn('/releases/tags/', request.call_args.args[1])
+
     def test_revision_is_newer_than_published_and_draft_versions(self):
         data = [{'tag_name': 'v1.0.1.3', 'draft': False}, {'tag_name': 'v1.0.1.4', 'draft': True}]
         result = releases.plan(data, 'kaldigo/Example', 'a' * 40, '1.0.1.1', 'Example')

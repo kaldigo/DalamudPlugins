@@ -15,6 +15,13 @@ def gh(*args):
     return subprocess.check_output(['gh', *args], text=True).strip()
 
 
+def find_release(repo, tag):
+    # REST's /releases/tags endpoint excludes drafts. List by the exact tag,
+    # then use the numeric release ID so draft retries remain discoverable.
+    pages = json.loads(gh('api', f'repos/{repo}/releases?per_page=100', '--paginate', '--slurp'))
+    return next((item for page in pages for item in page if item['tag_name'] == tag), None)
+
+
 def version(value):
     if not re.fullmatch(r'\d+\.\d+\.\d+\.\d+', value):
         raise ValueError('Release versions must have four numeric components')
@@ -104,13 +111,13 @@ def publish(folder, release, branch, preview=True):
     tagged = subprocess.check_output(['git', 'rev-parse', tag + '^{commit}'], text=True).strip()
     if tagged != release['commit']:
         raise ValueError('Release tag does not point at the validated source commit')
-    existing = subprocess.run(['gh', 'api', f'repos/{repo}/releases/tags/{tag}'], capture_output=True, text=True)
-    if existing.returncode:
+    existing = find_release(repo, tag)
+    if existing is None:
         gh('release', 'create', tag, '--repo', repo, '--target', release['commit'], '--draft',
            '--title', f'{release["internal_name"]} {tag}', '--notes-file', str(notes),
            *( ['--prerelease'] if preview else [] ))
     else:
-        current = json.loads(existing.stdout)
+        current = existing
         if release['marker'] not in (current.get('body') or ''):
             raise ValueError('Existing release belongs to another source commit; refusing to overwrite')
         if not current['draft']:
@@ -118,7 +125,10 @@ def publish(folder, release, branch, preview=True):
     # Only draft assets may be replaced on retry. Published assets are never clobbered.
     gh('release', 'upload', tag, '--repo', repo, '--clobber', str(folder / (release['internal_name'] + '.zip')),
        str(folder / 'pluginmaster.json'), str(folder / 'SHA256SUMS.txt'))
-    remote = json.loads(gh('api', f'repos/{repo}/releases/tags/{tag}'))
+    remote_release = find_release(repo, tag)
+    if remote_release is None:
+        raise ValueError('Created draft release could not be located')
+    remote = json.loads(gh('api', f'repos/{repo}/releases/{remote_release["id"]}'))
     assets = {asset['name']: asset for asset in remote['assets']}
     for name in [release['internal_name'] + '.zip', 'pluginmaster.json', 'SHA256SUMS.txt']:
         data = (folder / name).read_bytes()
