@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/kaldigo/HotbarTools/main/pluginmaster.json",
+    "plugins": ["Aetherworks", "Accord", "WrathCombo"]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kaldigo/ExpandedHotbars/master/pluginmaster.json",
+    "plugins": ["ExpandedHotbars"]
+  }
+]
