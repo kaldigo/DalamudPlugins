@@ -44,9 +44,11 @@ validates every source before replacing the feed; a failed refresh preserves the
 last published feed. Development previews may be included, as described by each
 plugin's release notes.
 
-ExpandedHotbars separately checks upstream daily and proposes merge pull requests
-after building them. Changes and conflicts can be reviewed before merging, and
-upstream updates do not automatically create releases.
+ExpandedHotbars separately checks upstream daily. Routine condition/documentation
+updates merge after build, configuration, policy and packaging checks pass. Changes
+to fork-modified files, dependencies, publishing or unrecognised areas remain open
+for manual review, as do conflicts and failed checks. Upstream merges do not
+automatically create releases.
 
 To validate this repository locally:
 
