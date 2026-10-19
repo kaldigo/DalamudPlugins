@@ -49,9 +49,9 @@
   },
   {
     "Author": "kaldigo; based on MidoriKami's ExpandedHotbars",
-    "Name": "ExpandedHotbars",
-    "InternalName": "ExpandedHotbars",
-    "AssemblyVersion": "1.0.1.2",
+    "Name": "ExpandedHotbars Plus",
+    "InternalName": "ExpandedHotbarsPlus",
+    "AssemblyVersion": "1.0.1.3",
     "Description": "Create hotbars of any size, spacing, and keybinds, with functions to show and hide these bars dynamically.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/ExpandedHotbars",
@@ -66,10 +66,10 @@
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/ExpandedHotbars/master/ExpandedHotbars/images/icon.png",
     "Punchline": "Add and control an unlimited number of custom additional hotbars.",
     "AcceptsFeedback": false,
-    "Changelog": "Validated fork update from source 46c1db0617bfe5514428aef0f0b860eb8b151eea. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.2/ExpandedHotbars.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.2/ExpandedHotbars.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.2/ExpandedHotbars.zip"
+    "Changelog": "Validated fork update from source a63f9f45afbf778769b0326bb698c578744baf15. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.3/ExpandedHotbarsPlus.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.3/ExpandedHotbarsPlus.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.3/ExpandedHotbarsPlus.zip"
   },
   {
     "Author": "kaldigo; based on Team Wrath's Wrath Combo",

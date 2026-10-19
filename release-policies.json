@@ -2,7 +2,7 @@
   "Aetherworks": {"mode": "source-managed", "repository": "kaldigo/HotbarTools"},
   "Accord": {"mode": "source-managed", "repository": "kaldigo/Accord"},
   "WrathCombo": {"mode": "source-managed", "repository": "kaldigo/Accord"},
-  "ExpandedHotbars": {
+  "ExpandedHotbarsPlus": {
     "mode": "routine-auto-release",
     "repository": "kaldigo/ExpandedHotbars",
     "channel": "preview",
