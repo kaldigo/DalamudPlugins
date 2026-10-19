@@ -4,7 +4,7 @@ One custom repository for Kaldigo's FFXIV/Dalamud plugins.
 
 ## Install
 
-In `/xlsettings` â†’ **Experimental** â†’ **Custom Plugin Repositories**, add:
+In `/xlsettings` → **Experimental** → **Custom Plugin Repositories**, add:
 
 ```text
 https://raw.githubusercontent.com/kaldigo/DalamudPlugins/main/pluginmaster.json
@@ -18,17 +18,17 @@ plugins retain their identities and configuration; reinstalling is unnecessary.
 
 | Plugin | Purpose | Source |
 | --- | --- | --- |
-| Aetherworks | Individually configurable quality-of-life tools | [HotbarTools](https://github.com/kaldigo/HotbarTools/tree/main/Aetherworks) |
-| Accord | Intent settings and matching hotbar layouts | [Accord](https://github.com/kaldigo/Accord) |
-| Wrath Combo | Accord-compatible rotation engine fork | [Accord](https://github.com/kaldigo/Accord) |
+| Aetherworks | Individually configurable quality-of-life tools | [FFXIVAetherworks](https://github.com/kaldigo/FFXIVAetherworks) |
+| Accord | Intent settings and matching hotbar layouts | [FFXIVAccord](https://github.com/kaldigo/FFXIVAccord) |
+| Wrath Combo | Accord-compatible rotation engine fork | [WrathCombo](https://github.com/kaldigo/WrathCombo) |
 | ExpandedHotbars Plus | Additional hotbars, with optional close after click or keybind use | [ExpandedHotbars](https://github.com/kaldigo/ExpandedHotbars) |
 
 ExpandedHotbars Plus is based on [MidoriKami's plugin](https://github.com/MidoriKami/ExpandedHotbars).
-Search for **ExpandedHotbars Plus** in the installer. Its separate identity
-`ExpandedHotbarsPlus` allows installation alongside the official listing. Disable
-the upstream plugin before enabling Plus because their commands and hotbars overlap.
-Settings are separate; use hotbar export/import to transfer layouts. The original
-settings are preserved. Its new auto-close behavior still needs
+Search for **ExpandedHotbars Plus** in the installer. It uses the separate identity
+`ExpandedHotbarsPlus`, allowing installation alongside the official listing.
+Disable the upstream ExpandedHotbars before enabling Plus because their commands
+and hotbars overlap. Settings are separate; use hotbar export/import to transfer
+layouts. The original settings are preserved. Its new auto-close behavior still needs
 in-game acceptance testing. Wrath Combo likewise replaces the upstream Wrath Combo;
 see its source repository for installation and migration details.
 
@@ -38,10 +38,10 @@ Hotbar Bridge and Job Setup are retired and are not included in this feed.
 
 This repository is the central installation feed. Plugin source, licenses, build
 history, and release downloads remain in the source repositories linked above.
-Existing release URLs remain valid.
+HotbarTools is retired. The former Accord repository is now WrathCombo, preserving its upstream fork relationship and history.
 
 The feed refreshes hourly from the maintained source feeds in `sources.json`, or
-on demand through **Actions â†’ Refresh plugin feed â†’ Run workflow**. GitHub may
+on demand through **Actions → Refresh plugin feed → Run workflow**. GitHub may
 delay scheduled runs or disable schedules in inactive repositories. Each update
 validates every source before replacing the feed; a failed refresh preserves the
 last published feed. Development previews may be included, as described by each
@@ -66,8 +66,8 @@ the last working release remains available.
 New plugins must declare a release policy in `release-policies.json`. The shared
 version planner and validated publisher live in `.github/actions/plan-release` and
 `.github/actions/publish-release`. See [the onboarding standard](docs/ADDING-PLUGINS.md)
-for the source workflow contract, checks and manual-review boundaries. Aetherworks,
-Accord and Wrath Combo retain their existing source-managed release workflows.
+for the source workflow contract, checks and manual-review boundaries.
+Accord and Aetherworks use reviewed source workflows that publish updates on main automatically. Wrath Combo also publishes reviewed main updates and checks upstream daily, automatically merging only untouched documentation changes. All three use the shared planner and checksum-verified publisher.
 
 To validate this repository locally:
 

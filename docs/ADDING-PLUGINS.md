@@ -56,3 +56,7 @@ The shared publisher currently preserves development-preview distribution.
 Promoting a plugin to a stable channel is an explicit reviewed publishing change.
 Enabling automatic publication for a new plugin also requires a reviewed source
 workflow; adding a feed entry by itself does not authorise arbitrary source builds.
+
+## Owned source releases
+
+`reviewed-source-release` is explicitly enabled for Accord and Aetherworks. Updates committed to their main branches run the same exact-source build, regression, package, checksum and immutable-release checks. They do not merge external upstream changes automatically. Wrath Combo uses `routine-auto-release` for untouched upstream documentation only; rotation, configuration, dependencies and native hooks require review. Human-reviewed main updates publish through its source workflow. Both policies receive central archive verification before feed replacement.

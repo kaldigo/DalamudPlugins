@@ -11,10 +11,16 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 import release_tools as releases
-from sync_feed import prevent_downgrades
+from sync_feed import prevent_downgrades, validate_policies
 
 
 class ReleaseTests(unittest.TestCase):
+    def test_owned_source_policy_requires_explicit_registration(self):
+        validate_policies({'Accord': {'mode': 'reviewed-source-release'}}, {'Accord'})
+        for policies in [{}, {'Accord': {'mode': 'automatic'}}]:
+            with self.assertRaises(ValueError):
+                validate_policies(policies, {'Accord'})
+
     def test_draft_lookup_uses_release_listing_instead_of_public_tag_endpoint(self):
         draft = {'tag_name': 'v1.0.1.2', 'id': 123, 'draft': True}
         with patch.object(releases, 'gh', return_value=json.dumps([[draft]])) as request:

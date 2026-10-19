@@ -1,10 +1,26 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/kaldigo/HotbarTools/main/pluginmaster.json",
-    "plugins": ["Aetherworks", "Accord", "WrathCombo"]
+    "url": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherworks/main/pluginmaster.json",
+    "plugins": [
+      "Aetherworks"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kaldigo/FFXIVAccord/main/pluginmaster.json",
+    "plugins": [
+      "Accord"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kaldigo/WrathCombo/main/pluginmaster.json",
+    "plugins": [
+      "WrathCombo"
+    ]
   },
   {
     "url": "https://raw.githubusercontent.com/kaldigo/ExpandedHotbars/master/pluginmaster.json",
-    "plugins": ["ExpandedHotbarsPlus"]
+    "plugins": [
+      "ExpandedHotbarsPlus"
+    ]
   }
 ]

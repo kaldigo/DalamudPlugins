@@ -1,7 +1,25 @@
 {
-  "Aetherworks": {"mode": "source-managed", "repository": "kaldigo/HotbarTools"},
-  "Accord": {"mode": "source-managed", "repository": "kaldigo/Accord"},
-  "WrathCombo": {"mode": "source-managed", "repository": "kaldigo/Accord"},
+  "Aetherworks": {
+    "mode": "reviewed-source-release",
+    "repository": "kaldigo/FFXIVAetherworks",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
+  },
+  "Accord": {
+    "mode": "reviewed-source-release",
+    "repository": "kaldigo/FFXIVAccord",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
+  },
+  "WrathCombo": {
+    "mode": "routine-auto-release",
+    "repository": "kaldigo/WrathCombo",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
+  },
   "ExpandedHotbarsPlus": {
     "mode": "routine-auto-release",
     "repository": "kaldigo/ExpandedHotbars",

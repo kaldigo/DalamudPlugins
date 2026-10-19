@@ -68,6 +68,12 @@ def verify_publication(entry, policy):
         validate_package(folder, dict(repo=repo, tag=tag, version=entry['AssemblyVersion'], internal_name=entry['InternalName']))
 
 
+def validate_policies(policies, expected):
+    modes = {'source-managed', 'reviewed-source-release', 'routine-auto-release'}
+    if set(policies) != expected or any(item.get('mode') not in modes for item in policies.values()):
+        raise ValueError('Every configured plugin must have an explicit release policy')
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--check', action='store_true', help='Validate the checked-in feed without fetching')
@@ -75,8 +81,7 @@ def main():
     sources = json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))
     expected = {name for source in sources for name in source['plugins']}
     policies = json.loads((ROOT / 'release-policies.json').read_text(encoding='utf-8'))
-    if set(policies) != expected or any(item['mode'] not in ['source-managed', 'routine-auto-release'] for item in policies.values()):
-        raise ValueError('Every configured plugin must have an explicit release policy')
+    validate_policies(policies, expected)
     if args.check:
         feed = json.loads((ROOT / 'pluginmaster.json').read_text(encoding='utf-8-sig'))
     else:
@@ -99,7 +104,7 @@ def main():
         old = {entry['InternalName']: entry for entry in previous}
         for entry in feed:
             policy = policies[entry['InternalName']]
-            if policy['mode'] == 'routine-auto-release' and old.get(entry['InternalName']) != entry:
+            if policy['mode'] in ['reviewed-source-release', 'routine-auto-release'] and old.get(entry['InternalName']) != entry:
                 verify_publication(entry, policy)
         # All sources must validate before writing anything. Failed updates preserve the last feed.
         (ROOT / 'pluginmaster.json').write_text(json.dumps(feed, indent=2) + '\n', encoding='utf-8')
