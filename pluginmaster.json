@@ -51,7 +51,7 @@
     "Author": "kaldigo; based on MidoriKami's ExpandedHotbars",
     "Name": "ExpandedHotbars Plus",
     "InternalName": "ExpandedHotbarsPlus",
-    "AssemblyVersion": "1.0.1.5",
+    "AssemblyVersion": "1.0.1.6",
     "Description": "Create hotbars of any size, spacing, and keybinds, with functions to show and hide these bars dynamically.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/ExpandedHotbars",
@@ -66,10 +66,10 @@
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/ExpandedHotbars/master/ExpandedHotbars/images/icon.png",
     "Punchline": "Add and control an unlimited number of custom additional hotbars.",
     "AcceptsFeedback": false,
-    "Changelog": "Validated fork update from source c5a42438537f8857254c89265b478b71711162c6. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.5/ExpandedHotbarsPlus.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.5/ExpandedHotbarsPlus.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.5/ExpandedHotbarsPlus.zip"
+    "Changelog": "Validated fork update from source 5226b5aefc79d4446c1f9f20d395014f4b531cbf. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.6/ExpandedHotbarsPlus.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.6/ExpandedHotbarsPlus.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.6/ExpandedHotbarsPlus.zip"
   },
   {
     "Author": "kaldigo; based on Team Wrath's Wrath Combo",
