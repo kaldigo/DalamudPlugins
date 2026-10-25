@@ -51,7 +51,7 @@
     "Author": "NightmareXIV, kawaii",
     "Name": "AutoRetainer",
     "InternalName": "AutoRetainer",
-    "AssemblyVersion": "4.6.3.4",
+    "AssemblyVersion": "4.6.3.5",
     "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/AutoRetainer",
@@ -63,10 +63,10 @@
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/AutoRetainer/master/assets/icon.png",
     "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
     "AcceptsFeedback": true,
-    "Changelog": "Second safety review: protocol-3 owned standalone control/expiry, no changes to general suppression, existing YesAlready/TextAdvance pause coordination, owned one-shot GC confirmations and bilateral persisted transaction-review holds. Existing protections, identity and unmanaged workflows remain. Expanded production control/dialog/commit tests pass. Native acceptance remains pending; update Steward together and keep automatic execution off.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.4/AutoRetainer.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.4/AutoRetainer.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.4/AutoRetainer.zip"
+    "Changelog": "Third safety review: protocol 4, rollback of failed guard-relaxing saves, full GC state reset only after successful explicit review, post-policy source/protection checks and managed desynthesis target binding. Fault notification survives pause-helper errors. Identity and original unmanaged workflows remain. Native acceptance remains pending; update Steward together and keep automatic execution off.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.5/AutoRetainer.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.5/AutoRetainer.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.5/AutoRetainer.zip"
   },
   {
     "Author": "kaldigo; based on MidoriKami's ExpandedHotbars",
@@ -96,7 +96,7 @@
     "Author": "kaldigo",
     "Name": "Steward",
     "InternalName": "Steward",
-    "AssemblyVersion": "0.1.0.11",
+    "AssemblyVersion": "0.1.0.12",
     "Description": "Collection-aware inventory decisions and market rules coordinated with the AutoRetainer integration fork. Starts in dry-run mode.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/FFXIVSteward",
@@ -108,10 +108,10 @@
     "Punchline": "Collect what matters. Sell the surplus.",
     "AcceptsFeedback": true,
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVSteward/main/assets/icon.png",
-    "Changelog": "Second safety review: protocol-3 owned standalone control, final native market readback/rule checks, complete current-request snapshots on the framework thread, owned confirmations, one-shot GC commits, bilateral persisted review holds, existing YesAlready/TextAdvance pauses, owned prompt cancellation, planning/request failure holds, live-player/world guards and strict CSV flags. First load of this safety revision resets automatic execution to off. Prior collection/blue-marketability protections remain. Native acceptance and a verified cross-zone collection refresh path remain outstanding; this is not certified unattended cleanup.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.11/Steward.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.11/Steward.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.11/Steward.zip"
+    "Changelog": "Third safety review: protocol/safety revision 4, recovery-state reset after successful persistence, rollback of guard-relaxing save failures, failed-enable hold, explicit AutoRetainer keep-list checks for companion actions, post-callback source/protection verification, selected desynthesis-target binding and visible/unready confirmation cancellation guards. Starts in dry-run after upgrade. Native acceptance and verified cross-zone collection refresh remain outstanding; this is not certified unattended cleanup.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.12/Steward.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.12/Steward.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.12/Steward.zip"
   },
   {
     "Author": "kaldigo; based on Team Wrath's Wrath Combo",
