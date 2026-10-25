@@ -51,7 +51,7 @@
     "Author": "kaldigo; based on MidoriKami's ExpandedHotbars",
     "Name": "ExpandedHotbars Plus",
     "InternalName": "ExpandedHotbarsPlus",
-    "AssemblyVersion": "1.0.1.13",
+    "AssemblyVersion": "1.0.1.14",
     "Description": "Create hotbars of any size, spacing, and keybinds, with functions to show and hide these bars dynamically.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/ExpandedHotbars",
@@ -66,10 +66,10 @@
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/ExpandedHotbars/master/ExpandedHotbars/images/icon.png",
     "Punchline": "Add and control an unlimited number of custom additional hotbars.",
     "AcceptsFeedback": false,
-    "Changelog": "Validated fork update from source c32fbf46a18c989aa55efecf875f5493a95635bf. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.13/ExpandedHotbarsPlus.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.13/ExpandedHotbarsPlus.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.13/ExpandedHotbarsPlus.zip"
+    "Changelog": "Validated fork update from source e3ab7c877b2b2a1b59b30a9593734bf9f18c8b74. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.14/ExpandedHotbarsPlus.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.14/ExpandedHotbarsPlus.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.14/ExpandedHotbarsPlus.zip"
   },
   {
     "Author": "kaldigo; based on Team Wrath's Wrath Combo",
