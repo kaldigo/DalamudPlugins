@@ -22,5 +22,17 @@
     "plugins": [
       "ExpandedHotbarsPlus"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kaldigo/AutoRetainer/master/pluginmaster.json",
+    "plugins": [
+      "AutoRetainer"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kaldigo/FFXIVSteward/main/pluginmaster.json",
+    "plugins": [
+      "Steward"
+    ]
   }
 ]

@@ -22,6 +22,8 @@ plugins retain their identities and configuration; reinstalling is unnecessary.
 | Accord | Intent settings and matching hotbar layouts | [FFXIVAccord](https://github.com/kaldigo/FFXIVAccord) |
 | Wrath Combo | Accord-compatible rotation engine fork | [WrathCombo](https://github.com/kaldigo/WrathCombo) |
 | ExpandedHotbars Plus | Additional hotbars, with optional close after click or keybind use | [ExpandedHotbars](https://github.com/kaldigo/ExpandedHotbars) |
+| AutoRetainer | Original identity and workflows, with optional Steward item-policy integration | [AutoRetainer](https://github.com/kaldigo/AutoRetainer) |
+| Steward | Collection protection, exclusions, sale rules and inventory decisions for the AutoRetainer fork | [FFXIVSteward](https://github.com/kaldigo/FFXIVSteward) |
 
 ExpandedHotbars Plus is based on [MidoriKami's plugin](https://github.com/MidoriKami/ExpandedHotbars).
 Search for **ExpandedHotbars Plus** in the installer. It uses the separate identity
@@ -33,6 +35,8 @@ in-game acceptance testing. Wrath Combo likewise replaces the upstream Wrath Com
 see its source repository for installation and migration details.
 
 Hotbar Bridge and Job Setup are retired and are not included in this feed.
+
+AutoRetainer replaces the upstream installation using the same `AutoRetainer` identity, commands and configuration, with a recoloured original icon. Steward is a separate companion and starts in dry run. Both Metallic Silver dye items are initially excluded. Open `/steward` for decisions and settings. These are development previews; native game acceptance is pending. Never enable two AutoRetainer copies together. The fork checks upstream daily and tests proposed merges; routine unrelated method-body/documentation changes can merge and release automatically once GitHub's update-PR creation permission is enabled. Conflicts, protected code, dependencies, configuration and publishing changes remain review work.
 
 ## Releases and maintenance
 

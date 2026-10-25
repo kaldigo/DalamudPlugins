@@ -26,5 +26,19 @@
     "channel": "preview",
     "workflow": "release-fork.yml",
     "versioning": "four-part-incrementing-revision"
+  },
+  "AutoRetainer": {
+    "mode": "routine-auto-release",
+    "repository": "kaldigo/AutoRetainer",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
+  },
+  "Steward": {
+    "mode": "reviewed-source-release",
+    "repository": "kaldigo/FFXIVSteward",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
   }
 }
