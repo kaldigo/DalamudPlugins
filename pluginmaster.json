@@ -51,7 +51,7 @@
     "Author": "NightmareXIV, kawaii",
     "Name": "AutoRetainer",
     "InternalName": "AutoRetainer",
-    "AssemblyVersion": "4.6.3.8",
+    "AssemblyVersion": "4.6.3.12",
     "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/AutoRetainer",
@@ -63,10 +63,10 @@
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/AutoRetainer/master/assets/icon.png",
     "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
     "AcceptsFeedback": true,
-    "Changelog": "Steward decision-review integration: optional collection sweep reuses existing retainer postprocessing; read-only disposal selection shares the original hard-list predicate and enabled methods. Original identity, recoloured icon, workflows and protocol-6 safety gates remain unchanged. Paired Steward update intended for log-only decision validation; native execution acceptance remains pending.\n\nProtocol 6 storage preview: optional companion-owned overflow pass reuses bell/retainer/postprocess workflows and native entrust command. Exact per-item Store bridge, unique/space guards and destination acknowledgements retain pending review on uncertainty. Original identity, icon and existing functionality remain unchanged. Native acceptance pending.\n\nRepeated safety review: protocol 5 and an independent synchronous policy ledger replace the incorrect assumption that EzConfig writes propagate disk failures. Managed NPC/retainer sales, desynthesis and armoire storage journal before submission and require exact acknowledgement; remaining jobs wait. Ordinary config imports cannot remove ownership. Review/detach reject backlogged work. Withdrawal binds retainer/HQ and pause managers retain pending transaction guards. Original identity and workflows remain. Native acceptance and safe cross-zone collection refresh are still pending.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.8/AutoRetainer.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.8/AutoRetainer.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.8/AutoRetainer.zip"
+    "Changelog": "Fix the Steward collection sweep stalling at the retainer list: reuse AutoRetainer\u2019s existing decoded retainer list and selector instead of converting a native byte span to text. Log retainer selection steps. Publish the previously tested companion storage/gil-only boundaries, optional strategy coordination, GC-first disposal priority and shared demo-mode guard for GC delivery, desynthesis and selling. Native retainer selection remains unchanged. Original plugin identity and upstream functionality are preserved. In-game collection acceptance remains pending.\n\nSteward decision-review integration: optional collection sweep reuses existing retainer postprocessing; read-only disposal selection shares the original hard-list predicate and enabled methods. Original identity, recoloured icon, workflows and protocol-6 safety gates remain unchanged. Paired Steward update intended for log-only decision validation; native execution acceptance remains pending.\n\nProtocol 6 storage preview: optional companion-owned overflow pass reuses bell/retainer/postprocess workflows and native entrust command. Exact per-item Store bridge, unique/space guards and destination acknowledgements retain pending review on uncertainty. Original identity, icon and existing functionality remain unchanged. Native acceptance pending.\n\nRepeated safety review: protocol 5 and an independent synchronous policy ledger replace the incorrect assumption that EzConfig writes propagate disk failures. Managed NPC/retainer sales, desynthesis and armoire storage journal before submission and require exact acknowledgement; remaining jobs wait. Ordinary config imports cannot remove ownership. Review/detach reject backlogged work. Withdrawal binds retainer/HQ and pause managers retain pending transaction guards. Original identity and workflows remain. Native acceptance and safe cross-zone collection refresh are still pending.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.12/AutoRetainer.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.12/AutoRetainer.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/AutoRetainer/releases/download/v4.6.3.12/AutoRetainer.zip"
   },
   {
     "Author": "kaldigo; based on MidoriKami's ExpandedHotbars",
@@ -96,7 +96,7 @@
     "Author": "kaldigo",
     "Name": "Steward",
     "InternalName": "Steward",
-    "AssemblyVersion": "0.1.0.31",
+    "AssemblyVersion": "0.1.0.36",
     "Description": "Collection-aware inventory decisions and market rules coordinated with the AutoRetainer integration fork. Starts in dry-run mode.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/FFXIVSteward",
@@ -106,12 +106,12 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "Punchline": "Collect what matters. Sell the surplus.",
-    "Changelog": "Replace category checkboxes with clickable icon buttons: blue highlights for selected categories and amber borders for partial saved selections. Use combined category names and counts in selected summaries. Hide Soul Crystals from the picker and exclude them from Select all. Preserve existing rule scope, four marketboard-style groups, whole-group controls and wrapped icon rows. No automation or protection policy changes.",
+    "Changelog": "Fix decoded retainer names in storage progress labels and keep the window closed on startup/reload. Publish the previously tested collection/storage exclusions, persistent protection handling, disposal-route logging, turnover-based sale rotation, optional dedicated dye strategy, and confirmed-empty-market Universalis-average fallback. Requires AutoRetainer storage capability 3 for automatic execution. Existing feature settings are preserved; no automation is enabled by this update. In-game collection acceptance remains pending.\n\nReplace category checkboxes with clickable icon buttons: blue highlights for selected categories and amber borders for partial saved selections. Use combined category names and counts in selected summaries. Hide Soul Crystals from the picker and exclude them from Select all. Preserve existing rule scope, four marketboard-style groups, whole-group controls and wrapped icon rows. No automation or protection policy changes.",
     "AcceptsFeedback": true,
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVSteward/main/assets/icon.png",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.31/Steward.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.31/Steward.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.31/Steward.zip"
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.36/Steward.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.36/Steward.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.36/Steward.zip"
   },
   {
     "Author": "kaldigo; based on Team Wrath's Wrath Combo",
