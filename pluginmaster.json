@@ -72,7 +72,7 @@
     "Author": "kaldigo; based on MidoriKami's ExpandedHotbars",
     "Name": "ExpandedHotbars Plus",
     "InternalName": "ExpandedHotbarsPlus",
-    "AssemblyVersion": "1.0.1.15",
+    "AssemblyVersion": "1.0.1.16",
     "Description": "Create hotbars of any size, spacing, and keybinds, with functions to show and hide these bars dynamically.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/ExpandedHotbars",
@@ -87,16 +87,16 @@
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/ExpandedHotbars/master/ExpandedHotbars/images/icon.png",
     "Punchline": "Add and control an unlimited number of custom additional hotbars.",
     "AcceptsFeedback": false,
-    "Changelog": "Validated fork update from source e99e068923f94a8c24842b710a024cb8a2b4a51a. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.15/ExpandedHotbarsPlus.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.15/ExpandedHotbarsPlus.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.15/ExpandedHotbarsPlus.zip"
+    "Changelog": "Validated fork update from source 9db3792459c821089de7b86bad5928a324e4ae18. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.16/ExpandedHotbarsPlus.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.16/ExpandedHotbarsPlus.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.16/ExpandedHotbarsPlus.zip"
   },
   {
     "Author": "kaldigo",
     "Name": "Steward",
     "InternalName": "Steward",
-    "AssemblyVersion": "0.1.0.36",
+    "AssemblyVersion": "0.1.0.37",
     "Description": "Collection-aware inventory decisions and market rules coordinated with the AutoRetainer integration fork. Starts in dry-run mode.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/FFXIVSteward",
@@ -106,12 +106,12 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "Punchline": "Collect what matters. Sell the surplus.",
-    "Changelog": "Fix decoded retainer names in storage progress labels and keep the window closed on startup/reload. Publish the previously tested collection/storage exclusions, persistent protection handling, disposal-route logging, turnover-based sale rotation, optional dedicated dye strategy, and confirmed-empty-market Universalis-average fallback. Requires AutoRetainer storage capability 3 for automatic execution. Existing feature settings are preserved; no automation is enabled by this update. In-game collection acceptance remains pending.\n\nReplace category checkboxes with clickable icon buttons: blue highlights for selected categories and amber borders for partial saved selections. Use combined category names and counts in selected summaries. Hide Soul Crystals from the picker and exclude them from Select all. Preserve existing rule scope, four marketboard-style groups, whole-group controls and wrapped icon rows. No automation or protection policy changes.",
+    "Changelog": "Fix collection withdrawal planning stopping after selecting a retainer: count waiting dresser items from captured candidates while retaining live protection checks. Apply the fix to both initial planning and pre-transfer capacity checks. Preserve transaction holds and log full exception details for future failures. Existing automation, disposal and protection settings are unchanged. In-game acceptance remains pending. Following AutoRetainer activation for all background collection/storage work remains a final-release requirement, not a capability of this update.\n\nFix decoded retainer names in storage progress labels and keep the window closed on startup/reload. Publish the previously tested collection/storage exclusions, persistent protection handling, disposal-route logging, turnover-based sale rotation, optional dedicated dye strategy, and confirmed-empty-market Universalis-average fallback. Requires AutoRetainer storage capability 3 for automatic execution. Existing feature settings are preserved; no automation is enabled by this update. In-game collection acceptance remains pending.\n\nReplace category checkboxes with clickable icon buttons: blue highlights for selected categories and amber borders for partial saved selections. Use combined category names and counts in selected summaries. Hide Soul Crystals from the picker and exclude them from Select all. Preserve existing rule scope, four marketboard-style groups, whole-group controls and wrapped icon rows. No automation or protection policy changes.",
     "AcceptsFeedback": true,
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVSteward/main/assets/icon.png",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.36/Steward.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.36/Steward.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.36/Steward.zip"
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.37/Steward.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.37/Steward.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVSteward/releases/download/v0.1.0.37/Steward.zip"
   },
   {
     "Author": "kaldigo; based on Team Wrath's Wrath Combo",
