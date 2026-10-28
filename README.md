@@ -24,6 +24,7 @@ plugins retain their identities and configuration; reinstalling is unnecessary.
 | ExpandedHotbars Plus | Additional hotbars, with optional close after click or keybind use | [ExpandedHotbars](https://github.com/kaldigo/ExpandedHotbars) |
 | AutoRetainer | Original identity and workflows, with optional Steward item-policy integration | [AutoRetainer](https://github.com/kaldigo/AutoRetainer) |
 | Steward | Collection protection, exclusions, sale rules and inventory decisions for the AutoRetainer fork | [FFXIVSteward](https://github.com/kaldigo/FFXIVSteward) |
+| Questionable | Quest automation with isolated BossMod Reborn support and upstream route updates | [Questionable](https://github.com/kaldigo/Questionable) |
 
 ExpandedHotbars Plus is based on [MidoriKami's plugin](https://github.com/MidoriKami/ExpandedHotbars).
 Search for **ExpandedHotbars Plus** in the installer. It uses the separate identity
@@ -39,6 +40,13 @@ Hotbar Bridge and Job Setup are retired and are not included in this feed.
 AutoRetainer replaces the upstream installation using the same `AutoRetainer` identity, commands and configuration, with a recoloured original icon. Steward is a separate companion and starts in dry run. Both Metallic Silver dye items are initially excluded. Open `/steward` for decisions and settings. These are development previews; native game acceptance is pending. Never enable two AutoRetainer copies together. The fork checks upstream daily and tests proposed merges; routine unrelated method-body/documentation changes can merge and release automatically once GitHub's update-PR creation permission is enabled. Conflicts, protected code, dependencies, configuration and publishing changes remain review work.
 
 ## Releases and maintenance
+
+Questionable preserves its upstream plugin identity, commands and configuration, with a recoloured
+icon and a separate Reborn adapter. Load only one BossMod variant. Upstream quest/gathering route
+downloads remain enabled. The fork checks upstream daily; routine updates merge and release
+after validation, while integration, dependency, configuration and publishing changes need review.
+The shared feed picks up verified Questionable releases during its hourly refresh. Solo-duty
+behaviour still requires in-game acceptance testing.
 
 This repository is the central installation feed. Plugin source, licenses, build
 history, and release downloads remain in the source repositories linked above.

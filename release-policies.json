@@ -40,5 +40,12 @@
     "channel": "preview",
     "workflow": "release-fork.yml",
     "versioning": "four-part-incrementing-revision"
+  },
+  "Questionable": {
+    "mode": "routine-auto-release",
+    "repository": "kaldigo/Questionable",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
   }
 }
