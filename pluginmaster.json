@@ -3,7 +3,7 @@
     "Author": "kaldigo",
     "Name": "Accord",
     "InternalName": "Accord",
-    "AssemblyVersion": "0.2.15.9",
+    "AssemblyVersion": "0.2.15.10",
     "Description": "Configures the compatible Wrathful Combo engine through its settings API and manages static/live hotbars. Includes compact PvE/PvP layouts, three-bar manual logout fallback with login restoration, and automatic Sprint conversion on active hotbars. Development preview.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/FFXIVAccord",
@@ -22,9 +22,9 @@
     "Punchline": "Reviewed intent settings and matching hotbars.",
     "AcceptsFeedback": true,
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.9/Accord.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.9/Accord.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.9/Accord.zip"
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.10/Accord.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.10/Accord.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.10/Accord.zip"
   },
   {
     "Author": "kaldigo",
