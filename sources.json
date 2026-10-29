@@ -40,5 +40,11 @@
     "plugins": [
       "Questionable"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kaldigo/Stylist/main/pluginmaster.json",
+    "plugins": [
+      "Stylist"
+    ]
   }
 ]

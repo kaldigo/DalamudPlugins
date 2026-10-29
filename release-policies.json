@@ -47,5 +47,12 @@
     "channel": "preview",
     "workflow": "release-fork.yml",
     "versioning": "four-part-incrementing-revision"
+  },
+  "Stylist": {
+    "mode": "routine-auto-release",
+    "repository": "kaldigo/Stylist",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
   }
 }

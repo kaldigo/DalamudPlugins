@@ -25,6 +25,7 @@ plugins retain their identities and configuration; reinstalling is unnecessary.
 | AutoRetainer | Original identity and workflows, with optional Steward item-policy integration | [AutoRetainer](https://github.com/kaldigo/AutoRetainer) |
 | Steward | Collection protection, exclusions, sale rules and inventory decisions for the AutoRetainer fork | [FFXIVSteward](https://github.com/kaldigo/FFXIVSteward) |
 | Questionable | Quest automation with isolated BossMod Reborn support and upstream route updates | [Questionable](https://github.com/kaldigo/Questionable) |
+| Stylist | Gear updates with optional sorting of gearset items into the armory chest and unused gear into inventory | [Stylist](https://github.com/kaldigo/Stylist) |
 
 ExpandedHotbars Plus is based on [MidoriKami's plugin](https://github.com/MidoriKami/ExpandedHotbars).
 Search for **ExpandedHotbars Plus** in the installer. It uses the separate identity
@@ -95,3 +96,10 @@ python tools/sync_feed.py
 
 This is an independent custom repository, not affiliated with Dalamud or the
 upstream plugin authors. Original licenses and attribution remain with each source.
+
+Stylist preserves its upstream identity, commands, configuration and IPC names.
+Enable **Move replaced items from armory chest to regular inventory** for final
+storage sorting against every saved gearset. Equipped items stay equipped.
+Use one Stylist installation. Daily upstream checks automatically merge and release
+validated routine updates; storage, IPC, dependencies and publishing changes need
+review. Item movement still requires in-game acceptance testing.
