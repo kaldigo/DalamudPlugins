@@ -1,0 +1,20 @@
+name: Publish immutable testing candidate
+description: Publish verified testing assets without updating any stable source feed
+inputs:
+  internal-name:
+    required: true
+    description: Unchanged registered plugin identity
+  source-commit:
+    required: true
+    description: Exact tested source commit
+runs:
+  using: composite
+  steps:
+    - shell: pwsh
+      env:
+        TEST_PLUGIN: ${{ inputs.internal-name }}
+        TEST_COMMIT: ${{ inputs.source-commit }}
+        TEST_REPOSITORY: ${{ github.repository }}
+      run: |
+        python "${{ github.action_path }}/../../../tools/publish_testing.py" --folder artifacts/testing --repo $env:TEST_REPOSITORY --name $env:TEST_PLUGIN --commit $env:TEST_COMMIT
+        if ($LASTEXITCODE) { exit $LASTEXITCODE }

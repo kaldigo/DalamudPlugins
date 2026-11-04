@@ -1,0 +1,12 @@
+{
+  "stable_feed": "https://raw.githubusercontent.com/kaldigo/DalamudPlugins/main/pluginmaster.json",
+  "plugins": {
+    "Accord": { "repository": "kaldigo/FFXIVAccord", "candidate": null },
+    "WrathCombo": { "repository": "kaldigo/WrathCombo", "candidate": null },
+    "RotationSolver": {
+      "repository": "kaldigo/RotationSolverReborn",
+      "stable_feed": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+      "candidate": null
+    }
+  }
+}
