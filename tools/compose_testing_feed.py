@@ -2,7 +2,7 @@
 import argparse
 import json
 from pathlib import Path
-from testing_channels import overlay, validate_config, verify_candidate, fetch
+from testing_channels import overlay, validate_config, verify_candidate, fetch, version
 
 ROOT = Path(__file__).resolve().parents[1]
 
