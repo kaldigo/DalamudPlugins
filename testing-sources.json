@@ -3,11 +3,11 @@
   "plugins": {
     "Accord": {
       "repository": "kaldigo/FFXIVAccord",
-      "candidate": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.18/testing-release.json"
+      "candidate": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.19/testing-release.json"
     },
     "WrathCombo": {
       "repository": "kaldigo/WrathCombo",
-      "candidate": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.39/testing-release.json"
+      "candidate": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.40/testing-release.json"
     },
     "RotationSolver": {
       "repository": "kaldigo/RotationSolverReborn",
