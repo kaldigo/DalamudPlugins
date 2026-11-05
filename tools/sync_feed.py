@@ -7,6 +7,7 @@ import urllib.request
 from urllib.parse import urlparse
 import tempfile
 from release_tools import validate_package
+from testing_channels import compose_channels, validate_config
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = ['InternalName', 'Name', 'Author', 'AssemblyVersion', 'DalamudApiLevel',
@@ -34,8 +35,14 @@ def validate(feed):
             url = urlparse(plugin[key])
             if url.scheme != 'https' or url.hostname not in ['github.com', 'raw.githubusercontent.com']:
                 raise ValueError(f'Unexpected {key} for {name}')
-            if not url.path.startswith('/kaldigo/'):
+            upstream_metadata = name == 'RotationSolver' and (
+                key == 'RepoUrl' and plugin[key] == 'https://github.com/FFXIV-CombatReborn/RotationSolverReborn' or
+                key == 'IconUrl' and plugin[key] == 'https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/RSR_Icon.png')
+            if not url.path.startswith('/kaldigo/') and not upstream_metadata:
                 raise ValueError(f'Unexpected repository owner in {key} for {name}')
+        if 'TestingAssemblyVersion' in plugin:
+            if not re.fullmatch(r'\d+(?:\.\d+){2,3}', plugin['TestingAssemblyVersion']) or not isinstance(plugin.get('TestingDalamudApiLevel'), int):
+                raise ValueError(f'Invalid testing channel for {name}')
     return names
 
 
@@ -69,9 +76,18 @@ def verify_publication(entry, policy):
 
 
 def validate_policies(policies, expected):
-    modes = {'source-managed', 'reviewed-source-release', 'routine-auto-release'}
+    modes = {'source-managed', 'reviewed-source-release', 'routine-auto-release', 'testing-only'}
     if set(policies) != expected or any(item.get('mode') not in modes for item in policies.values()):
         raise ValueError('Every configured plugin must have an explicit release policy')
+    for name, policy in policies.items():
+        if policy['mode'] == 'testing-only' and (name != 'RotationSolver' or
+                policy.get('repository') != 'kaldigo/RotationSolverReborn'):
+            raise ValueError('Unreviewed testing-only policy')
+
+
+def stable_fields(entry):
+    return {key: value for key, value in entry.items() if key not in
+            ('TestingAssemblyVersion', 'TestingDalamudApiLevel', 'DownloadLinkTesting', 'TestingChangelog')}
 
 
 def main():
@@ -81,7 +97,14 @@ def main():
     sources = json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))
     expected = {name for source in sources for name in source['plugins']}
     policies = json.loads((ROOT / 'release-policies.json').read_text(encoding='utf-8'))
-    validate_policies(policies, expected)
+    testing = json.loads((ROOT / 'testing-sources.json').read_text(encoding='utf-8'))
+    validate_config(testing)
+    exclusive = {name for name, item in testing['plugins'].items() if item.get('testing_only')}
+    validate_policies(policies, expected | exclusive)
+    if exclusive & expected or not set(testing['plugins']).issubset(expected | exclusive):
+        raise ValueError('Testing identities must match the registered stable/testing-only sources')
+    if any(policies[name]['mode'] != 'testing-only' for name in exclusive):
+        raise ValueError('Testing-only source requires an explicit policy')
     if args.check:
         feed = json.loads((ROOT / 'pluginmaster.json').read_text(encoding='utf-8-sig'))
     else:
@@ -90,13 +113,17 @@ def main():
             request = urllib.request.Request(source['url'], headers={'User-Agent': 'kaldigo-DalamudPlugins'})
             with urllib.request.urlopen(request, timeout=45) as response:
                 entries = json.load(response)
-            validate(entries)
             selected = [entry for entry in entries if entry['InternalName'] in source['plugins']]
             if {entry['InternalName'] for entry in selected} != set(source['plugins']):
                 raise ValueError(f'Missing expected plugins from {source["url"]}')
+            validate(selected)
             feed.extend(selected)
-    if validate(feed) != expected:
+    found = validate(feed)
+    if not expected.issubset(found) or not found.issubset(expected | exclusive):
         raise ValueError('Combined feed does not match the configured plugin list')
+    for entry in feed:
+        if entry['InternalName'] in exclusive and not entry.get('IsTestingExclusive'):
+            raise ValueError('Testing-only plugin must not advertise a stable channel')
     feed.sort(key=lambda entry: entry['Name'].casefold())
     if not args.check:
         previous = json.loads((ROOT / 'pluginmaster.json').read_text(encoding='utf-8-sig'))
@@ -104,10 +131,15 @@ def main():
         old = {entry['InternalName']: entry for entry in previous}
         for entry in feed:
             policy = policies[entry['InternalName']]
-            if policy['mode'] in ['reviewed-source-release', 'routine-auto-release'] and old.get(entry['InternalName']) != entry:
+            if policy['mode'] in ['reviewed-source-release', 'routine-auto-release'] and stable_fields(old.get(entry['InternalName'], {})) != stable_fields(entry):
                 verify_publication(entry, policy)
-        # All sources must validate before writing anything. Failed updates preserve the last feed.
-        (ROOT / 'pluginmaster.json').write_text(json.dumps(feed, indent=2) + '\n', encoding='utf-8')
+        feed = compose_channels(feed, testing)
+        validate(feed)
+        feed.sort(key=lambda entry: entry['Name'].casefold())
+        # Validate stable sources and any advertised testing assets before atomic publication.
+        temporary = ROOT / '.pluginmaster.tmp'
+        temporary.write_text(json.dumps(feed, indent=2) + '\n', encoding='utf-8')
+        temporary.replace(ROOT / 'pluginmaster.json')
     print('Validated:', ', '.join(entry['InternalName'] for entry in feed))
 
 

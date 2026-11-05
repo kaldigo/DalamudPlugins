@@ -60,3 +60,9 @@ workflow; adding a feed entry by itself does not authorise arbitrary source buil
 ## Owned source releases
 
 `reviewed-source-release` is explicitly enabled for Accord and Aetherworks. Updates committed to their main branches run the same exact-source build, regression, package, checksum and immutable-release checks. They do not merge external upstream changes automatically. Wrath Combo uses `routine-auto-release` for untouched upstream documentation only; rotation, configuration, dependencies and native hooks require review. Human-reviewed main updates publish through its source workflow. Both policies receive central archive verification before feed replacement.
+
+## Native opt-in testing channels
+
+`testing-sources.json` registers verified immutable candidates. `sync_feed.py` overlays them into the same main feed entry using `TestingAssemblyVersion`, `TestingDalamudApiLevel` and `DownloadLinkTesting`. Stable source feeds remain independent. Missing/invalid candidates do not block stable refreshes.
+
+RotationSolver has an explicitly approved `testing-only` policy and no stable source. It is advertised with `IsTestingExclusive: true` and its existing identity, only after verifying the fork's testing archive. Its upstream project/icon metadata is retained; download links must point to the fork. This does not enable automatic upstream merging or stable publication for RSR.

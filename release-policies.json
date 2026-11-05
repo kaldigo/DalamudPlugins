@@ -54,5 +54,12 @@
     "channel": "preview",
     "workflow": "release-fork.yml",
     "versioning": "four-part-incrementing-revision"
+  },
+  "RotationSolver": {
+    "mode": "testing-only",
+    "repository": "kaldigo/RotationSolverReborn",
+    "workflow": "testing.yml",
+    "branch": "testing",
+    "publication": "verified-immutable-testing-tag"
   }
 }

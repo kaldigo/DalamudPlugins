@@ -1,10 +1,9 @@
-name: Refresh opt-in testing feed
+# Compatibility refresh for users who briefly added the old testing URL.
+# Both URLs now serve the main feed; all channel composition happens in sync_feed.py.
+name: Refresh legacy testing feed alias
 on:
   schedule:
     - cron: '47 * * * *'
-  push:
-    branches: [testing]
-    paths: [testing-sources.json, tools/compose_testing_feed.py]
   workflow_dispatch:
 permissions:
   contents: write
@@ -13,26 +12,21 @@ concurrency:
   cancel-in-progress: false
 jobs:
   refresh:
-    if: github.ref == 'refs/heads/testing' || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
           ref: testing
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - run: python -m unittest discover -s tests -p 'test_*.py'
-      - run: python tools/compose_testing_feed.py
-      - name: Commit testing feed only
+      - name: Mirror the main feed
         shell: bash
         run: |
           set -euo pipefail
+          curl --fail --location --retry 3 https://raw.githubusercontent.com/kaldigo/DalamudPlugins/main/pluginmaster.json -o testing-pluginmaster.json
+          python -c "import json; assert isinstance(json.load(open('testing-pluginmaster.json')), list)"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add testing-pluginmaster.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh opt-in testing feed from current stable sources'
+            git commit -m 'Mirror main feed for legacy testing URL'
             git push origin HEAD:testing
           fi

@@ -1,0 +1,18 @@
+{
+  "stable_feed": "https://raw.githubusercontent.com/kaldigo/DalamudPlugins/main/pluginmaster.json",
+  "plugins": {
+    "Accord": {
+      "repository": "kaldigo/FFXIVAccord",
+      "candidate": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.15/testing-release.json"
+    },
+    "WrathCombo": {
+      "repository": "kaldigo/WrathCombo",
+      "candidate": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.38/testing-release.json"
+    },
+    "RotationSolver": {
+      "repository": "kaldigo/RotationSolverReborn",
+      "candidate": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.16/testing-release.json",
+      "testing_only": true
+    }
+  }
+}
