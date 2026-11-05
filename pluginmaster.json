@@ -24,8 +24,8 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.14/Accord.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.14/Accord.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.17/Accord.zip",
-    "TestingAssemblyVersion": "0.2.15.17",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.18/Accord.zip",
+    "TestingAssemblyVersion": "0.2.15.18",
     "TestingDalamudApiLevel": 15
   },
   {
@@ -123,7 +123,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Rotation Solver Reborn",
     "InternalName": "RotationSolver",
-    "AssemblyVersion": "7.5.7.18",
+    "AssemblyVersion": "7.5.7.19",
     "Description": "Analyses combat information every frame and finds the best action.\n\nThis means almost all the information available in one frame in combat, including the status of all players in the party, the status of any hostile targets, skill cooldowns, the MP and HP of characters, the location of characters, casting status of the hostile target, combo, combat duration, player level, etc.\nThen, it will highlight the best action on the hot bar, or help you to click on it.\nIt is designed for `general combat`, not for savage or ultimate. Use it carefully.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn",
@@ -143,15 +143,15 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/RotationSolverReborn/testing-v7.5.7.18/assets/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/RotationSolverReborn/testing-v7.5.7.19/assets/icon.png",
     "Punchline": "Analyses combat information every frame and finds the best action.",
     "AcceptsFeedback": true,
-    "DownloadLinkTesting": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.18/RotationSolver.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.19/RotationSolver.zip",
     "IsTestingExclusive": true,
-    "TestingAssemblyVersion": "7.5.7.18",
+    "TestingAssemblyVersion": "7.5.7.19",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.18/RotationSolver.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.18/RotationSolver.zip"
+    "DownloadLinkInstall": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.19/RotationSolver.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.19/RotationSolver.zip"
   },
   {
     "Author": "kaldigo",
