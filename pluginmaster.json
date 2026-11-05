@@ -74,7 +74,7 @@
     "Author": "kaldigo; based on MidoriKami's ExpandedHotbars",
     "Name": "ExpandedHotbars Plus",
     "InternalName": "ExpandedHotbarsPlus",
-    "AssemblyVersion": "1.0.1.23",
+    "AssemblyVersion": "1.0.1.24",
     "Description": "Create hotbars of any size, spacing, and keybinds, with functions to show and hide these bars dynamically.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/ExpandedHotbars",
@@ -89,10 +89,10 @@
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/ExpandedHotbars/master/ExpandedHotbars/images/icon.png",
     "Punchline": "Add and control an unlimited number of custom additional hotbars.",
     "AcceptsFeedback": false,
-    "Changelog": "Validated fork update from source 4d371903b621da373a13e2b354fa8f9e3695a54b. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.23/ExpandedHotbarsPlus.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.23/ExpandedHotbarsPlus.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.23/ExpandedHotbarsPlus.zip"
+    "Changelog": "Validated fork update from source 1e143a9b87cd049c3a5351d413bfd3ce842ffbf6. Build, configuration, merge-policy and package checks passed. Preserves the fork's auto-close and icon customizations. Development preview; native UI acceptance testing remains separate.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.24/ExpandedHotbarsPlus.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.24/ExpandedHotbarsPlus.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.24/ExpandedHotbarsPlus.zip"
   },
   {
     "Author": "the Puni.sh Quest Squad",
