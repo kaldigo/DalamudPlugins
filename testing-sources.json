@@ -11,8 +11,8 @@
     },
     "RotationSolver": {
       "repository": "kaldigo/RotationSolverReborn",
-      "stable_feed": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
-      "candidate": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.16/testing-release.json"
+      "candidate": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.16/testing-release.json",
+      "testing_only": true
     }
   }
 }
