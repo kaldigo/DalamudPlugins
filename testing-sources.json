@@ -7,11 +7,11 @@
     },
     "WrathCombo": {
       "repository": "kaldigo/WrathCombo",
-      "candidate": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.43/testing-release.json"
+      "candidate": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.44/testing-release.json"
     },
     "RotationSolver": {
       "repository": "kaldigo/RotationSolverReborn",
-      "candidate": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.20/testing-release.json",
+      "candidate": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.21/testing-release.json",
       "testing_only": true
     }
   }
