@@ -24,9 +24,7 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.14/Accord.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.14/Accord.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.24/Accord.zip",
-    "TestingAssemblyVersion": "0.2.15.24",
-    "TestingDalamudApiLevel": 15
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.14/Accord.zip"
   },
   {
     "Author": "kaldigo",
@@ -120,40 +118,6 @@
     "Changelog": "Isolated Reborn adapter; upstream quest updates preserved. Development preview: in-game acceptance pending."
   },
   {
-    "Author": "The Combat Reborn Team",
-    "Name": "Rotation Solver Reborn",
-    "InternalName": "RotationSolver",
-    "AssemblyVersion": "7.5.7.21",
-    "Description": "Analyses combat information every frame and finds the best action.\n\nThis means almost all the information available in one frame in combat, including the status of all players in the party, the status of any hostile targets, skill cooldowns, the MP and HP of characters, the location of characters, casting status of the hostile target, combo, combat duration, player level, etc.\nThen, it will highlight the best action on the hot bar, or help you to click on it.\nIt is designed for `general combat`, not for savage or ultimate. Use it carefully.",
-    "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn",
-    "Tags": [
-      "combat",
-      "rotation",
-      "auto",
-      "solver",
-      "pve",
-      "pvp"
-    ],
-    "CategoryTags": [
-      "jobs"
-    ],
-    "DalamudApiLevel": 15,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "LoadPriority": 0,
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/RotationSolverReborn/testing-v7.5.7.21/assets/icon.png",
-    "Punchline": "Analyses combat information every frame and finds the best action.",
-    "AcceptsFeedback": true,
-    "DownloadLinkTesting": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.21/RotationSolver.zip",
-    "IsTestingExclusive": true,
-    "TestingAssemblyVersion": "7.5.7.21",
-    "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.21/RotationSolver.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.21/RotationSolver.zip"
-  },
-  {
     "Author": "kaldigo",
     "Name": "Steward",
     "InternalName": "Steward",
@@ -219,8 +183,6 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.37/WrathCombo.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.37/WrathCombo.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.48/WrathCombo.zip",
-    "TestingAssemblyVersion": "1.0.4.48",
-    "TestingDalamudApiLevel": 15
+    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.37/WrathCombo.zip"
   }
 ]
