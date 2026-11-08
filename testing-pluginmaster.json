@@ -3,7 +3,7 @@
     "Author": "kaldigo",
     "Name": "Accord",
     "InternalName": "Accord",
-    "AssemblyVersion": "0.2.15.14",
+    "AssemblyVersion": "0.2.15.15",
     "Description": "Configures the compatible Wrathful Combo engine through its settings API and manages static/live hotbars. Includes compact PvE/PvP layouts, three-bar manual logout fallback with login restoration, and automatic Sprint conversion on active hotbars. Development preview.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/FFXIVAccord",
@@ -22,9 +22,11 @@
     "Punchline": "Reviewed intent settings and matching hotbars.",
     "AcceptsFeedback": true,
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.14/Accord.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.14/Accord.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.14/Accord.zip"
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.15/Accord.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.15/Accord.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.24/Accord.zip",
+    "TestingAssemblyVersion": "0.2.15.24",
+    "TestingDalamudApiLevel": 15
   },
   {
     "Author": "kaldigo",
@@ -118,6 +120,40 @@
     "Changelog": "Isolated Reborn adapter; upstream quest updates preserved. Development preview: in-game acceptance pending."
   },
   {
+    "Author": "The Combat Reborn Team",
+    "Name": "Rotation Solver Reborn",
+    "InternalName": "RotationSolver",
+    "AssemblyVersion": "7.5.7.22",
+    "Description": "Analyses combat information every frame and finds the best action.\n\nThis means almost all the information available in one frame in combat, including the status of all players in the party, the status of any hostile targets, skill cooldowns, the MP and HP of characters, the location of characters, casting status of the hostile target, combo, combat duration, player level, etc.\nThen, it will highlight the best action on the hot bar, or help you to click on it.\nIt is designed for `general combat`, not for savage or ultimate. Use it carefully.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn",
+    "Tags": [
+      "combat",
+      "rotation",
+      "auto",
+      "solver",
+      "pve",
+      "pvp"
+    ],
+    "CategoryTags": [
+      "jobs"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/RotationSolverReborn/testing-v7.5.7.22/assets/icon.png",
+    "Punchline": "Analyses combat information every frame and finds the best action.",
+    "AcceptsFeedback": true,
+    "DownloadLinkTesting": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.22/RotationSolver.zip",
+    "IsTestingExclusive": true,
+    "TestingAssemblyVersion": "7.5.7.22",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.22/RotationSolver.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/RotationSolverReborn/releases/download/testing-v7.5.7.22/RotationSolver.zip"
+  },
+  {
     "Author": "kaldigo",
     "Name": "Steward",
     "InternalName": "Steward",
@@ -163,7 +199,7 @@
     "Author": "kaldigo; based on Team Wrath's Wrath Combo",
     "Name": "Wrath Combo",
     "InternalName": "WrathCombo",
-    "AssemblyVersion": "1.0.4.37",
+    "AssemblyVersion": "1.0.4.38",
     "Description": "Wrath rotation engine fork with configurable continuation, targeting and support functionality. Configured independently or through its settings API. Accord-compatible build. Replaces stock Wrath Combo; remove the legacy WrathFork installation before loading.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/WrathCombo",
@@ -181,8 +217,10 @@
     "Punchline": "Configurable Wrath rotation engine and settings API.",
     "AcceptsFeedback": true,
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.37/WrathCombo.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.37/WrathCombo.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.37/WrathCombo.zip"
+    "DownloadLinkInstall": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.38/WrathCombo.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.38/WrathCombo.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.50/WrathCombo.zip",
+    "TestingAssemblyVersion": "1.0.4.50",
+    "TestingDalamudApiLevel": 15
   }
 ]
