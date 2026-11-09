@@ -24,8 +24,8 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.15/Accord.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.15/Accord.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.25/Accord.zip",
-    "TestingAssemblyVersion": "0.2.15.25",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.26/Accord.zip",
+    "TestingAssemblyVersion": "0.2.15.26",
     "TestingDalamudApiLevel": 15
   },
   {
