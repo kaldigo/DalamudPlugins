@@ -3,7 +3,7 @@
   "plugins": {
     "Accord": {
       "repository": "kaldigo/FFXIVAccord",
-      "candidate": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.27/testing-release.json"
+      "candidate": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.28/testing-release.json"
     },
     "WrathCombo": {
       "repository": "kaldigo/WrathCombo",
