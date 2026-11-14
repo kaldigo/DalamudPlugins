@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.2",
+    "AssemblyVersion": "0.1.0.3",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -43,11 +43,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.2/assets/icon.png",
-    "Changelog": "Aetherloom now has its own centered woven-thread icon in the plugin family colors.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.2/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.2/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.2/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.3/assets/icon.png",
+    "Changelog": "Refresh now loads saved designs from Glamourer and displays the design count. All saved designs are included regardless of tags.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.3/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.3/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.3/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
