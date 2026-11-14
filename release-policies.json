@@ -61,5 +61,12 @@
     "workflow": "testing.yml",
     "branch": "testing",
     "publication": "verified-immutable-testing-tag"
+  },
+  "Glamourer": {
+    "mode": "routine-auto-release",
+    "repository": "kaldigo/Glamourer",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
   }
 }

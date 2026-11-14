@@ -26,6 +26,7 @@ plugins retain their identities and configuration; reinstalling is unnecessary.
 | Steward | Collection protection, exclusions, sale rules and inventory decisions for the AutoRetainer fork | [FFXIVSteward](https://github.com/kaldigo/FFXIVSteward) |
 | Questionable | Quest automation with isolated BossMod Reborn support and upstream route updates | [Questionable](https://github.com/kaldigo/Questionable) |
 | Stylist | Gear updates with optional sorting of gearset items into the armory chest and unused gear into inventory | [Stylist](https://github.com/kaldigo/Stylist) |
+| Glamourer | Save and apply character appearances with Penumbra | [Glamourer](https://github.com/kaldigo/Glamourer) |
 
 ExpandedHotbars Plus is based on [MidoriKami's plugin](https://github.com/MidoriKami/ExpandedHotbars).
 Search for **ExpandedHotbars Plus** in the installer. It uses the separate identity
