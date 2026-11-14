@@ -112,16 +112,16 @@
       "Character"
     ],
     "InternalName": "Glamourer",
-    "AssemblyVersion": "9.0.0.2",
+    "AssemblyVersion": "9.0.0.3",
     "RepoUrl": "https://github.com/kaldigo/Glamourer",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "ImageUrls": null,
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/Glamourer/testing/images/icon.png",
-    "Changelog": "Glamourer fork with a centered theatre-mask icon in the plugin family palette.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.2/Glamourer.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.2/Glamourer.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.2/Glamourer.zip"
+    "Changelog": "Apply stored or exempt equipment per slot. The Equipment editor marks missing pieces using your saved dresser and armoire collections.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.3/Glamourer.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.3/Glamourer.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.3/Glamourer.zip"
   },
   {
     "Author": "the Puni.sh Quest Squad",
