@@ -1,5 +1,11 @@
 [
   {
+    "url": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/main/pluginmaster.json",
+    "plugins": [
+      "Aetherloom"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherworks/main/pluginmaster.json",
     "plugins": [
       "Aetherworks"

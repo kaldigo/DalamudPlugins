@@ -1,4 +1,11 @@
 {
+  "Aetherloom": {
+    "mode": "reviewed-source-release",
+    "repository": "kaldigo/FFXIVAetherloom",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
+  },
   "Aetherworks": {
     "mode": "reviewed-source-release",
     "repository": "kaldigo/FFXIVAetherworks",

@@ -18,6 +18,7 @@ plugins retain their identities and configuration; reinstalling is unnecessary.
 
 | Plugin | Purpose | Source |
 | --- | --- | --- |
+| Aetherloom | Check ownership of gear in Glamourer designs | [FFXIVAetherloom](https://github.com/kaldigo/FFXIVAetherloom) |
 | Aetherworks | Individually configurable quality-of-life tools | [FFXIVAetherworks](https://github.com/kaldigo/FFXIVAetherworks) |
 | Accord | Intent settings and matching hotbar layouts | [FFXIVAccord](https://github.com/kaldigo/FFXIVAccord) |
 | Wrath Combo | Accord-compatible rotation engine fork | [WrathCombo](https://github.com/kaldigo/WrathCombo) |
