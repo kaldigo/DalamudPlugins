@@ -95,6 +95,35 @@
     "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.25/ExpandedHotbarsPlus.zip"
   },
   {
+    "Author": "Ottermandias",
+    "Name": "Glamourer",
+    "Punchline": "Change and save appearance of players.",
+    "Description": "Adds functionality to change and store appearance of players, customization and equip. Requires Penumbra to be installed and activated to work. Can also add preview options to the Changed Items tab for Penumbra.",
+    "Tags": [
+      "Appearance",
+      "Glamour",
+      "Race",
+      "Outfit",
+      "Armor",
+      "Clothes",
+      "Skins",
+      "Customization",
+      "Design",
+      "Character"
+    ],
+    "InternalName": "Glamourer",
+    "AssemblyVersion": "9.0.0.2",
+    "RepoUrl": "https://github.com/kaldigo/Glamourer",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "ImageUrls": null,
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/Glamourer/testing/images/icon.png",
+    "Changelog": "Glamourer fork with a centered theatre-mask icon in the plugin family palette.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.2/Glamourer.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.2/Glamourer.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.2/Glamourer.zip"
+  },
+  {
     "Author": "the Puni.sh Quest Squad",
     "Name": "Questionable",
     "InternalName": "Questionable",
