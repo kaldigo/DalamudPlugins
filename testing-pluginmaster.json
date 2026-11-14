@@ -24,8 +24,8 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.15/Accord.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.15/Accord.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.38/Accord.zip",
-    "TestingAssemblyVersion": "0.2.15.38",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.40/Accord.zip",
+    "TestingAssemblyVersion": "0.2.15.40",
     "TestingDalamudApiLevel": 15
   },
   {
@@ -219,8 +219,8 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.38/WrathCombo.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.38/WrathCombo.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.62/WrathCombo.zip",
-    "TestingAssemblyVersion": "1.0.4.62",
+    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.68/WrathCombo.zip",
+    "TestingAssemblyVersion": "1.0.4.68",
     "TestingDalamudApiLevel": 15
   }
 ]
