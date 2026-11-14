@@ -24,9 +24,30 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.15/Accord.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.15/Accord.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.40/Accord.zip",
-    "TestingAssemblyVersion": "0.2.15.40",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.41/Accord.zip",
+    "TestingAssemblyVersion": "0.2.15.41",
     "TestingDalamudApiLevel": 15
+  },
+  {
+    "Author": "kaldigo",
+    "Name": "Aetherloom",
+    "InternalName": "Aetherloom",
+    "AssemblyVersion": "0.1.0.11",
+    "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Plan outfits from your FFXIV wardrobe.",
+    "AcceptsFeedback": true,
+    "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.11/assets/icon.png",
+    "Changelog": "Choose the game default, black, or white preview backdrop. Horizontal panning follows the drag. Hold either camera button to hide and anchor the cursor until release.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.11/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.11/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.11/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
@@ -112,16 +133,16 @@
       "Character"
     ],
     "InternalName": "Glamourer",
-    "AssemblyVersion": "9.0.0.2",
+    "AssemblyVersion": "9.0.0.4",
     "RepoUrl": "https://github.com/kaldigo/Glamourer",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "ImageUrls": null,
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/Glamourer/testing/images/icon.png",
     "Changelog": "Glamourer fork with a centered theatre-mask icon in the plugin family palette.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.2/Glamourer.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.2/Glamourer.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.2/Glamourer.zip"
+    "DownloadLinkInstall": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.4/Glamourer.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.4/Glamourer.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.4/Glamourer.zip"
   },
   {
     "Author": "the Puni.sh Quest Squad",
@@ -248,8 +269,8 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.38/WrathCombo.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.38/WrathCombo.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.68/WrathCombo.zip",
-    "TestingAssemblyVersion": "1.0.4.68",
+    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.69/WrathCombo.zip",
+    "TestingAssemblyVersion": "1.0.4.69",
     "TestingDalamudApiLevel": 15
   }
 ]
