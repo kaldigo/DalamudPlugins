@@ -52,11 +52,5 @@
     "plugins": [
       "Stylist"
     ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/kaldigo/Glamourer/testing/pluginmaster.json",
-    "plugins": [
-      "Glamourer"
-    ]
   }
 ]
