@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.23",
+    "AssemblyVersion": "0.1.0.35",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -43,11 +43,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.23/assets/icon.png",
-    "Changelog": "Right-click a wardrobe design to rename, clone or delete it. Clones open in the same folder with independent wardrobe settings and no job or zone assignments.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.23/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.23/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.23/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.35/assets/icon.png",
+    "Changelog": "Choose a lip shade in Appearance to apply lipstick with a wardrobe design. The picker uses the character creation dark and light palettes and respects the preview race, including linked appearances. Hrothgar fur patterns remain controlled by their appearance.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.35/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.35/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.35/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
@@ -269,8 +269,8 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.38/WrathCombo.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.38/WrathCombo.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.69/WrathCombo.zip",
-    "TestingAssemblyVersion": "1.0.4.69",
+    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.70/WrathCombo.zip",
+    "TestingAssemblyVersion": "1.0.4.70",
     "TestingDalamudApiLevel": 15
   }
 ]
