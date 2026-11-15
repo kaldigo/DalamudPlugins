@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.25",
+    "AssemblyVersion": "0.1.0.26",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -43,11 +43,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.25/assets/icon.png",
-    "Changelog": "Folder right-click menus open directly on their actions. The design title now includes a per-design ownership bypass for Apply to character. With bypass off, unavailable gear and its dyes are skipped.\n\nJob and zone assignments now apply the assigned design using the same ownership bypass as manual application. A zone assignment takes priority and leaving it restores the current job assignment.\n\nThe Details tab edits the design\u2019s intended audience and its Classification, Style, Theme, Color, and freeform tags. The wardrobe sidebar combines text search with filters for these fields and configured weapon jobs. Existing tags remain searchable.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.25/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.25/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.25/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.26/assets/icon.png",
+    "Changelog": "Fixed a game crash when opening the Weapon job filter. Job search now merges duplicate abbreviations from the game data, including localized names.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.26/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.26/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.26/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
