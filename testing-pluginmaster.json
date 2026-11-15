@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.39",
+    "AssemblyVersion": "0.1.0.43",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -43,11 +43,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.39/assets/icon.png",
-    "Changelog": "Aetherloom now owns its wardrobe. On first access it migrates outfit contents, folders, tags, favourites and assignments under their existing design IDs. New designs, imports and edits stay local. Linked Glamourer appearances still update from their originals, and Steward reads the same equipment references from the local wardrobe.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.39/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.39/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.39/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.43/assets/icon.png",
+    "Changelog": "Pair shields and secondary tools with individual main hands. Choose the preview weapon using the eye on its gear row. Design previews start with empty gear slots and retain the camera when switching weapons. Manual and assignment application select the pair for the current job.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.43/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.43/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.43/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
@@ -114,35 +114,6 @@
     "DownloadLinkInstall": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.26/ExpandedHotbarsPlus.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.26/ExpandedHotbarsPlus.zip",
     "DownloadLinkTesting": "https://github.com/kaldigo/ExpandedHotbars/releases/download/v1.0.1.26/ExpandedHotbarsPlus.zip"
-  },
-  {
-    "Author": "Ottermandias",
-    "Name": "Glamourer",
-    "Punchline": "Change and save appearance of players.",
-    "Description": "Adds functionality to change and store appearance of players, customization and equip. Requires Penumbra to be installed and activated to work. Can also add preview options to the Changed Items tab for Penumbra.",
-    "Tags": [
-      "Appearance",
-      "Glamour",
-      "Race",
-      "Outfit",
-      "Armor",
-      "Clothes",
-      "Skins",
-      "Customization",
-      "Design",
-      "Character"
-    ],
-    "InternalName": "Glamourer",
-    "AssemblyVersion": "9.0.0.7",
-    "RepoUrl": "https://github.com/kaldigo/Glamourer",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 15,
-    "ImageUrls": null,
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/Glamourer/testing/images/icon.png",
-    "Changelog": "Glamourer fork with a centered theatre-mask icon in the plugin family palette.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.7/Glamourer.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.7/Glamourer.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.7/Glamourer.zip"
   },
   {
     "Author": "the Puni.sh Quest Squad",
