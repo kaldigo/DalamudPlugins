@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.34",
+    "AssemblyVersion": "0.1.0.35",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -43,11 +43,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.34/assets/icon.png",
-    "Changelog": "The assignment editor starts with no proposed location and clears pending location and job choices when you switch designs. Move assignment appears only after you select an exact location and job combination already assigned to another design. Jobs or roles and multi-location pickers now use checkboxes and show the selected names in the assignment editor. Adding or moving an assignment and leaving the Assignments tab also clear the pending selections.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.34/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.34/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.34/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.35/assets/icon.png",
+    "Changelog": "Choose a lip shade in Appearance to apply lipstick with a wardrobe design. The picker uses the character creation dark and light palettes and respects the preview race, including linked appearances. Hrothgar fur patterns remain controlled by their appearance.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.35/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.35/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.35/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
