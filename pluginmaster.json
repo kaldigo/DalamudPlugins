@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.17",
+    "AssemblyVersion": "0.1.0.18",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -43,11 +43,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.17/assets/icon.png",
-    "Changelog": "The wardrobe preview now fills its pane edge to edge, uses the visible character model as its appearance baseline, and holds the previous image and camera framing through gear and design changes.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.17/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.17/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.17/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.18/assets/icon.png",
+    "Changelog": "The wider wardrobe sidebar shows designs tagged aetherloom, mirrors Glamourer folders beginning with [AL], and supports folder creation and drag-and-drop. Update the Glamourer fork alongside Aetherloom. Old ui-wardrobe plans migrate with their existing design IDs.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.18/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.18/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.18/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
@@ -133,16 +133,16 @@
       "Character"
     ],
     "InternalName": "Glamourer",
-    "AssemblyVersion": "9.0.0.4",
+    "AssemblyVersion": "9.0.0.5",
     "RepoUrl": "https://github.com/kaldigo/Glamourer",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "ImageUrls": null,
     "IconUrl": "https://raw.githubusercontent.com/kaldigo/Glamourer/testing/images/icon.png",
     "Changelog": "Glamourer fork with a centered theatre-mask icon in the plugin family palette.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.4/Glamourer.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.4/Glamourer.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.4/Glamourer.zip"
+    "DownloadLinkInstall": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.5/Glamourer.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.5/Glamourer.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/Glamourer/releases/download/v9.0.0.5/Glamourer.zip"
   },
   {
     "Author": "the Puni.sh Quest Squad",
