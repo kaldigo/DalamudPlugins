@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.31",
+    "AssemblyVersion": "0.1.0.32",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -43,11 +43,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.31/assets/icon.png",
-    "Changelog": "Character assignments now support location and job or role together, including regions, cities, inns, housing and named areas. The editor shows the next matching design and asks before moving an identical assignment. Existing zone and job assignments migrate automatically. The fixed sidebar switches between Manual and Assignments globally across all characters. Applying a design manually selects Manual mode. Returning to Assignments resumes matching and releases equipment and appearance fields left behind by earlier designs.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.31/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.31/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.31/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.32/assets/icon.png",
+    "Changelog": "Star wardrobe designs and find them with Favourites only. Link an appearance in Details by tagging a separate Glamourer design aetherloom-base. Preview, manual apply and assignments use its enabled character customization underneath the outfit and clear the previous base when switching designs. Only available glamours uses your currently displayed race and gender. The global mode switch has improved spacing. New Dalamud IPC endpoints list wardrobe designs and favourites, apply designs, control assignment mode, and revert all gear and appearance while switching to Manual.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.32/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.32/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.32/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
