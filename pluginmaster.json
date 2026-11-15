@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.15",
+    "AssemblyVersion": "0.1.0.16",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -43,11 +43,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.15/assets/icon.png",
-    "Changelog": "Full-height character preview with fixed-width side panes and a colour-matched renderer backdrop. Added design controls for sheathed arms, headgear, visor and Viera ears, preview-only draw and camera reset, and clearer dye selection.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.15/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.15/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.15/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.16/assets/icon.png",
+    "Changelog": "Design display controls now cycle between enabled, explicitly off, and disabled. Corrected all eight dye families and updated the dye, gear, hairstyle, face paint and colour pickers with framed popups, selection indicators and consistent spacing.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.16/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.16/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.16/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
