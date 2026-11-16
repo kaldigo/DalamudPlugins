@@ -52,5 +52,11 @@
     "plugins": [
       "Stylist"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kaldigo/proteus/main/pluginmaster.json",
+    "plugins": [
+      "Proteus"
+    ]
   }
 ]
