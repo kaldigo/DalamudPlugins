@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherform",
     "InternalName": "Aetherform",
-    "AssemblyVersion": "0.3.0.2",
+    "AssemblyVersion": "0.3.0.3",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
@@ -46,11 +46,11 @@
       "aetherform",
       "penumbra"
     ],
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.3.0.2/assets/icon.png",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.3.0.2/Aetherform.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.3.0.2/Aetherform.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.3.0.2/Aetherform.zip",
-    "Changelog": "Install through the shared repository. Body data is read from the local Aetherform payload folder."
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.3.0.3/assets/icon.png",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.3.0.3/Aetherform.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.3.0.3/Aetherform.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.3.0.3/Aetherform.zip",
+    "Changelog": "New Aetherform family icon, matching window header mark, and pictograms for Body installer and Physics preset builder."
   },
   {
     "Author": "kaldigo",
