@@ -75,5 +75,12 @@
     "channel": "preview",
     "workflow": "release-fork.yml",
     "versioning": "four-part-incrementing-revision"
+  },
+  "Aetherform": {
+    "mode": "reviewed-source-release",
+    "repository": "kaldigo/FFXIVAetherform",
+    "channel": "preview",
+    "workflow": "release-fork.yml",
+    "versioning": "four-part-incrementing-revision"
   }
 }

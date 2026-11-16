@@ -18,6 +18,7 @@ plugins retain their identities and configuration; reinstalling is unnecessary.
 
 | Plugin | Purpose | Source |
 | --- | --- | --- |
+| Aetherform | Install the body and build per-collection physics presets | [FFXIVAetherform](https://github.com/kaldigo/FFXIVAetherform) |
 | Aetherloom | Check ownership of gear in Glamourer designs | [FFXIVAetherloom](https://github.com/kaldigo/FFXIVAetherloom) |
 | Aetherworks | Individually configurable quality-of-life tools | [FFXIVAetherworks](https://github.com/kaldigo/FFXIVAetherworks) |
 | Accord | Intent settings and matching hotbar layouts | [FFXIVAccord](https://github.com/kaldigo/FFXIVAccord) |
