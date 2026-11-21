@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherform",
     "InternalName": "Aetherform",
-    "AssemblyVersion": "0.4.0.17",
+    "AssemblyVersion": "0.4.0.18",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
@@ -46,11 +46,11 @@
       "aetherform",
       "penumbra"
     ],
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.4.0.17/assets/icon.png",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.17/Aetherform.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.17/Aetherform.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.17/Aetherform.zip",
-    "Changelog": "Adds 284 garment classifications covering the current Aetherloom and Steward priority lists, including reviewed cloth panels and carried details. Affected cached refits refresh on equip."
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.4.0.18/assets/icon.png",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.18/Aetherform.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.18/Aetherform.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.18/Aetherform.zip",
+    "Changelog": "Records the surface review of 1,763 faces across 130 Aetherloom and Steward gear meshes and applies the verified adjacent-panel fitting rules."
   },
   {
     "Author": "kaldigo",
