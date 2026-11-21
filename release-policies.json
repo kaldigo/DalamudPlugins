@@ -69,13 +69,6 @@
     "branch": "testing",
     "publication": "verified-immutable-testing-tag"
   },
-  "Proteus": {
-    "mode": "routine-auto-release",
-    "repository": "kaldigo/proteus",
-    "channel": "preview",
-    "workflow": "release-fork.yml",
-    "versioning": "four-part-incrementing-revision"
-  },
   "Aetherform": {
     "mode": "reviewed-source-release",
     "repository": "kaldigo/FFXIVAetherform",
