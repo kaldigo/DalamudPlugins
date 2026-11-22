@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherform",
     "InternalName": "Aetherform",
-    "AssemblyVersion": "0.4.0.27",
+    "AssemblyVersion": "0.4.0.30",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
@@ -46,17 +46,17 @@
       "aetherform",
       "penumbra"
     ],
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.4.0.27/assets/icon.png",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.27/Aetherform.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.27/Aetherform.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.27/Aetherform.zip",
-    "Changelog": "Keeps flush skin markings attached during movement by transferring contact bone weights with their surface position."
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.4.0.30/assets/icon.png",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.30/Aetherform.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.30/Aetherform.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.30/Aetherform.zip",
+    "Changelog": "Prevents skin-clearance rays from reaching distant clothing and pulling exposed skin into dimples."
   },
   {
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.46",
+    "AssemblyVersion": "0.1.0.47",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -67,11 +67,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.46/assets/icon.png",
-    "Changelog": "Apply sheathed-arms, headgear, visor and ear visibility settings on designs with no appearance changes, including outfits without a main hand. Use the same fix for manual application and assignments.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.46/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.46/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.46/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.47/assets/icon.png",
+    "Changelog": "Add All cities under City or zone assignments. Match existing city area groups and their inns, including the Gold Saucer. Specific area and city assignments take priority, followed by All cities, region and Anywhere rules.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.47/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.47/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.47/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
