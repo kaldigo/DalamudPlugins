@@ -32,7 +32,7 @@
     "Author": "kaldigo",
     "Name": "Aetherform",
     "InternalName": "Aetherform",
-    "AssemblyVersion": "0.4.0.26",
+    "AssemblyVersion": "0.4.0.27",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
@@ -46,17 +46,17 @@
       "aetherform",
       "penumbra"
     ],
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.4.0.26/assets/icon.png",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.26/Aetherform.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.26/Aetherform.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.26/Aetherform.zip",
-    "Changelog": "Makes every Tiramisu2 physics control available on fresh installs with embedded runtime motion sources."
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.4.0.27/assets/icon.png",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.27/Aetherform.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.27/Aetherform.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.27/Aetherform.zip",
+    "Changelog": "Keeps flush skin markings attached during movement by transferring contact bone weights with their surface position."
   },
   {
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.43",
+    "AssemblyVersion": "0.1.0.46",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -67,11 +67,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.43/assets/icon.png",
-    "Changelog": "Pair shields and secondary tools with individual main hands. Choose the preview weapon using the eye on its gear row. Design previews start with empty gear slots and retain the camera when switching weapons. Manual and assignment application select the pair for the current job.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.43/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.43/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.43/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.46/assets/icon.png",
+    "Changelog": "Apply sheathed-arms, headgear, visor and ear visibility settings on designs with no appearance changes, including outfits without a main hand. Use the same fix for manual application and assignments.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.46/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.46/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.46/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
