@@ -32,25 +32,25 @@
     "Author": "kaldigo",
     "Name": "Aetherform",
     "InternalName": "Aetherform",
-    "AssemblyVersion": "0.4.0.30",
+    "AssemblyVersion": "0.4.0.31",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
     "Punchline": "Install the Aetherform body and build collection-specific physics presets.",
-    "Description": "Use /aetherform to install the body through Penumbra, select a collection, adjust physics, and fit vanilla gear on equip.",
+    "Description": "Use /aetherform to install the body through Penumbra, select a collection, adjust physics, and fit vanilla and YAB/Rue gear on equip.",
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherform",
     "Tags": [
       "physics",
       "aetherform",
       "penumbra"
     ],
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.4.0.30/assets/icon.png",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.30/Aetherform.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.30/Aetherform.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.30/Aetherform.zip",
-    "Changelog": "Prevents skin-clearance rays from reaching distant clothing and pulling exposed skin into dimples."
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherform/v0.4.0.31/assets/icon.png",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.31/Aetherform.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.31/Aetherform.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherform/releases/download/v0.4.0.31/Aetherform.zip",
+    "Changelog": "Adds automatic YAB/Rue-to-Aetherform standalone refits, prioritizes matching topology and selects the closest compatible size. Preserves tabs, options, textures and metadata, then disables the original mod in the current collection. Adds movement-aware weight conversion and separates family refits from vanilla refits."
   },
   {
     "Author": "kaldigo",
