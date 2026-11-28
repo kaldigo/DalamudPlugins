@@ -3,7 +3,7 @@
     "Author": "kaldigo",
     "Name": "Accord",
     "InternalName": "Accord",
-    "AssemblyVersion": "0.2.15.16",
+    "AssemblyVersion": "0.2.15.49",
     "Description": "Configures the compatible Wrathful Combo engine through its settings API and manages static/live hotbars. Includes compact PvE/PvP layouts, three-bar manual logout fallback with login restoration, and automatic Sprint conversion on active hotbars. Development preview.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kaldigo/FFXIVAccord",
@@ -22,11 +22,9 @@
     "Punchline": "Reviewed intent settings and matching hotbars.",
     "AcceptsFeedback": true,
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.16/Accord.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.16/Accord.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/testing-v0.2.15.45/Accord.zip",
-    "TestingAssemblyVersion": "0.2.15.45",
-    "TestingDalamudApiLevel": 15
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.49/Accord.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.49/Accord.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAccord/releases/download/v0.2.15.49/Accord.zip"
   },
   {
     "Author": "kaldigo",
@@ -56,7 +54,7 @@
     "Author": "kaldigo",
     "Name": "Aetherloom",
     "InternalName": "Aetherloom",
-    "AssemblyVersion": "0.1.0.51",
+    "AssemblyVersion": "0.1.0.54",
     "Description": "Inspect Glamourer designs against the current character's carried and stored equipment.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -67,11 +65,11 @@
     "Punchline": "Plan outfits from your FFXIV wardrobe.",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/kaldigo/FFXIVAetherloom",
-    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.51/assets/icon.png",
-    "Changelog": "Fix store-bundle ownership exemptions, including Blackbosom Void Reaper and the other Blackbosom scythes. Items also obtainable through normal gameplay still require ownership.",
-    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.51/Aetherloom.zip",
-    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.51/Aetherloom.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.51/Aetherloom.zip"
+    "IconUrl": "https://raw.githubusercontent.com/kaldigo/FFXIVAetherloom/v0.1.0.54/assets/icon.png",
+    "Changelog": "Fix personal and FC property assignments inside remodelled housing interiors with no territory display name. Preserve housing detection before label filtering and log resolved location chains for assignment diagnostics.",
+    "DownloadLinkInstall": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.54/Aetherloom.zip",
+    "DownloadLinkUpdate": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.54/Aetherloom.zip",
+    "DownloadLinkTesting": "https://github.com/kaldigo/FFXIVAetherloom/releases/download/v0.1.0.54/Aetherloom.zip"
   },
   {
     "Author": "kaldigo",
@@ -264,8 +262,8 @@
     "Changelog": "Validated source update. Development preview; native acceptance remains separate.",
     "DownloadLinkInstall": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.39/WrathCombo.zip",
     "DownloadLinkUpdate": "https://github.com/kaldigo/WrathCombo/releases/download/v1.0.4.39/WrathCombo.zip",
-    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.80/WrathCombo.zip",
-    "TestingAssemblyVersion": "1.0.4.80",
+    "DownloadLinkTesting": "https://github.com/kaldigo/WrathCombo/releases/download/testing-v1.0.4.84/WrathCombo.zip",
+    "TestingAssemblyVersion": "1.0.4.84",
     "TestingDalamudApiLevel": 15
   }
 ]
